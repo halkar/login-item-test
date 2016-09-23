@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginItemTestMain", "LoginItemTestMain\LoginItemTestMain.csproj", "{D1328A70-6921-470B-8691-9CFDE761F3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginItemTestHelper", "LoginItemTestHelper\LoginItemTestHelper.csproj", "{1701063E-E781-4CFD-BBBE-CCEC83F09AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1328A70-6921-470B-8691-9CFDE761F3BF}.Debug|x86.ActiveCfg = Debug|x86
+		{D1328A70-6921-470B-8691-9CFDE761F3BF}.Debug|x86.Build.0 = Debug|x86
+		{D1328A70-6921-470B-8691-9CFDE761F3BF}.Release|x86.ActiveCfg = Release|x86
+		{D1328A70-6921-470B-8691-9CFDE761F3BF}.Release|x86.Build.0 = Release|x86
+		{1701063E-E781-4CFD-BBBE-CCEC83F09AFA}.Debug|x86.ActiveCfg = Debug|x86
+		{1701063E-E781-4CFD-BBBE-CCEC83F09AFA}.Debug|x86.Build.0 = Debug|x86
+		{1701063E-E781-4CFD-BBBE-CCEC83F09AFA}.Release|x86.ActiveCfg = Release|x86
+		{1701063E-E781-4CFD-BBBE-CCEC83F09AFA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
