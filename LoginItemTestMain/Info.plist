@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>LoginItemTestMain</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.readify.login-item-test</string>
+	<string>net.readify.loginitemtest</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
