@@ -20,7 +20,7 @@ namespace LoginItemTestHelper
                     .DeleteLastPathComponent()
                     .DeleteLastPathComponent()
                     .DeleteLastPathComponent();
-                var pathToExecutable = path + @"Contents/MacOS/FindMe.TrayApp";
+                var pathToExecutable = path + @"Contents/MacOS/LoginItemTestMain";
 
                 if (NSWorkspace.SharedWorkspace.LaunchApplication(pathToExecutable)) { }
                 else NSWorkspace.SharedWorkspace.LaunchApplication(path);

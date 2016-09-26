@@ -668,7 +668,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hri-gh-xxB">
-                                <rect key="frame" x="18" y="234" width="134" height="18"/>
+                                <rect key="frame" x="173" y="126" width="134" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Launch at startup" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="GtW-Xg-1Dm">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>

@@ -15,14 +15,14 @@ namespace LoginItemTestMain
         {
             base.ViewDidLoad();
 
-            SwitchLaunchAtStartup.State = StartAtLoginOption.StartAtLogin ? NSCellStateValue.On : NSCellStateValue.Off;
+            //SwitchLaunchAtStartup.State = StartAtLoginOption.StartAtLogin ? NSCellStateValue.On : NSCellStateValue.Off;
 
             // Do any additional setup after loading the view.
         }
 
         partial void OnLaunchAtStartupChanged(NSButton sender)
         {
-            StartAtLoginOption.StartAtLogin = SwitchLaunchAtStartup.State == NSCellStateValue.On;
+            StartAtLoginOption.StartAtLogin(SwitchLaunchAtStartup.State == NSCellStateValue.On);
         }
 
         public override NSObject RepresentedObject
